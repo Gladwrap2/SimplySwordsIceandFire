@@ -14,10 +14,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SimplySwordsIceandFireDragonsteelSwordItem extends SwordItem {
+public class SimplySwordsIceandDragonsteelSwordItem extends SwordItem {
     String[] repairIngredient;
 
-    public SimplySwordsIceandFireDragonsteelSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
+    public SimplySwordsIceandDragonsteelSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
         super(toolMaterial, attackDamage, attackSpeed,
                 new Settings().arch$tab(SimplySwords.SIMPLYSWORDS).fireproof());
         this.repairIngredient = repairIngredient;
