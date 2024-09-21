@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "simplyswordsiceandfire:dragonsteel_fire_scythe",
+    "simplyswordsiceandfire:dragonsteel_ice_scythe",
+    "simplyswordsiceandfire:dragonsteel_fire_rapier",
+    "simplyswordsiceandfire:dragonsteel_ice_rapier",
+    "simplyswordsiceandfire:dragonsteel_fire_glaive",
+    "simplyswordsiceandfire:dragonsteel_ice_glaive",
+    "simplyswordsiceandfire:dragonsteel_fire_spear",
+    "simplyswordsiceandfire:dragonsteel_ice_spear",
+    "simplyswordsiceandfire:dragonsteel_fire_katana",
+    "simplyswordsiceandfire:dragonsteel_ice_katana",
+    "simplyswordsiceandfire:dragonsteel_fire_claymore",
+    "simplyswordsiceandfire:dragonsteel_ice_claymore",
+    "simplyswordsiceandfire:dragonsteel_fire_twinblade",
+    "simplyswordsiceandfire:dragonsteel_ice_twinblade",
+    "simplyswordsiceandfire:dragonsteel_fire_greataxe",
+    "simplyswordsiceandfire:dragonsteel_ice_greataxe",
+    "simplyswordsiceandfire:dragonsteel_fire_halberd",
+    "simplyswordsiceandfire:dragonsteel_ice_halberd",
+  ]
+}
