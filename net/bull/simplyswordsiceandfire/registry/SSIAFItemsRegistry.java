@@ -9,7 +9,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Rarity;
 import net.sweenus.simplyswords.SimplySwords;
 import net.sweenus.simplyswords.config.Config;
-import net.sweenus.simplyswordsiceandfire.config.ConfigDefaultValues;
+import net.sweenus.simplyswordsiceandfire.config.SSIAFConfig;
 import net.sweenus.simplyswords.config.ConfigDefaultValues;
 import net.bull.simplyswordsiceandfire.item.*;
 
