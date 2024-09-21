@@ -1,4 +1,4 @@
-package net.sweenus.simplyswords.item;
+package net.bull.simplyswordsiceandfire.item;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
