@@ -1,12 +1,17 @@
 package net.bull.simplyswordsiceandfire.item;
 
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.Registries;
+import net.minecraft.text.Style;
+import net.minecraft.text.Text;
+import net.minecraft.text.TextColor;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
 import net.sweenus.simplyswords.SimplySwords;
 import net.sweenus.simplyswords.util.HelperMethods;
 
@@ -14,12 +19,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SimplySwordsIceandDragonsteelSwordItem extends SwordItem {
+public class SimplySwordsIceandFireSwordItem extends SwordItem {
     String[] repairIngredient;
 
-    public SimplySwordsIceandDragonsteelSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
+    public SimplySwordsIceandFireSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, String... repairIngredient) {
         super(toolMaterial, attackDamage, attackSpeed,
-                new Settings().arch$tab(SimplySwords.SIMPLYSWORDS).fireproof());
+                new Item.Settings().arch$tab(SimplySwords.SIMPLYSWORDS));
         this.repairIngredient = repairIngredient;
     }
 
@@ -41,5 +46,4 @@ public class SimplySwordsIceandDragonsteelSwordItem extends SwordItem {
         }
         return super.postHit(stack, target, attacker);
     }
-
 }
