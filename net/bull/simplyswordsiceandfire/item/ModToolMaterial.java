@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.bull.simplyswordsiceandfire.registry.ItemsRegistry;
 import net.sweenus.simplyswords.registry.ItemsRegistry;
 
 import java.util.function.Supplier;
