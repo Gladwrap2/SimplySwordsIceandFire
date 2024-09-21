@@ -1,4 +1,4 @@
-package net.bull.simplyswordsicrandfire.item;
+package net.bull.simplyswordsiceandfire.item;
 
 import com.github.alexthe666.iceandfire.item;
 import com.google.common.base.Suppliers;
@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.bull.simplyswordsiceandfire.registry.ItemsRegistry;
+import net.bull.simplyswordsiceandfire.registry.SSIAFItemsRegistry;
 import net.sweenus.simplyswords.registry.ItemsRegistry;
 
 import java.util.function.Supplier;
