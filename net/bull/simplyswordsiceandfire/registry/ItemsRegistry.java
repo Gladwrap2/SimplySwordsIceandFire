@@ -7,7 +7,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Rarity;
-import net.bull.simplyswordsiceandfire.SimplySwords;
+import net.sweenus.simplyswords.SimplySwords;
 import net.sweenus.simplyswords.config.Config;
 import net.sweenus.simplyswords.config.ConfigDefaultValues;
 import net.bull.simplyswordsiceandfire.item.*;
