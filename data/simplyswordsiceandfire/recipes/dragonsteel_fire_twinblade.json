@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:runic_twinblade"
+  },
+  "addition": {
+    "item": "minecraft:dragonsteel_fire_ingot"
+  },
+  "result": {
+    "item": "simplyswordsiceandfire:dragonsteel_fire_twinblade"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}
