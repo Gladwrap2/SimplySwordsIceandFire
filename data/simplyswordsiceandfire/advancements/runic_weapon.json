@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "simplyswords:runic_longsword"
+      "item": "simplyswordsiceandfire:dragonsteel_fire_claymore"
     },
-    "title": "Rune Etching",
-    "description": "Obtain a runic weapon.",
+    "title": "A Weapon to Surpass Metal Gear",
+    "description": "Obtain any dragonsteel weapon.",
     "hidden": false,
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": false
+    "announce_to_chat": true
   },
   "parent": "simplyswords:simplyswords",
   "criteria": {
@@ -18,21 +18,24 @@
         "items": [
           {
             "items": [
-              "simplyswords:runic_longsword",
-              "simplyswords:runic_twinblade",
-              "simplyswords:runic_rapier",
-              "simplyswords:runic_cutlass",
-              "simplyswords:runic_claymore",
-              "simplyswords:runic_glaive",
-              "simplyswords:runic_warglaive",
-              "simplyswords:runic_sai",
-              "simplyswords:runic_katana",
-              "simplyswords:runic_spear",
-              "simplyswords:runic_greataxe",
-              "simplyswords:runic_greathammer",
-              "simplyswords:runic_chakram",
-              "simplyswords:runic_scythe",
-              "simplyswords:runic_halberd"
+              "simplyswordsiceandfire:dragonsteel_fire_twinblade",
+              "simplyswordsiceandfire:dragonsteel_fire_rapier",
+              "simplyswordsiceandfire:dragonsteel_fire_claymore",
+              "simplyswordsiceandfire:dragonsteel_fire_glaive",
+              "simplyswordsiceandfire:dragonsteel_fire_katana",
+              "simplyswordsiceandfire:dragonsteel_fire_spear",
+              "simplyswordsiceandfire:dragonsteel_fire_greataxe",
+              "simplyswordsiceandfire:dragonsteel_fire_scythe",
+              "simplyswordsiceandfire:dragonsteel_fire_halberd"
+              "simplyswordsiceandfire:dragonsteel_ice_twinblade",
+              "simplyswordsiceandfire:dragonsteel_ice_rapier",
+              "simplyswordsiceandfire:dragonsteel_ice_claymore",
+              "simplyswordsiceandfire:dragonsteel_ice_glaive",
+              "simplyswordsiceandfire:dragonsteel_ice_katana",
+              "simplyswordsiceandfire:dragonsteel_ice_spear",
+              "simplyswordsiceandfire:dragonsteel_ice_greataxe",
+              "simplyswordsiceandfire:dragonsteel_ice_scythe",
+              "simplyswordsiceandfire:dragonsteel_ice_halberd"
             ]
           }
         ]
