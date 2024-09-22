@@ -5,7 +5,7 @@ license = "Timefall Development License"
 
 [[mods]]
 modId = "simplyswordsiceandfire"
-version = "1.54.0-1.20.1"
+version = "1.0-1.20.1"
 displayName = "Simply Swords - Ice and Fire"
 authors = "Bull"
 credits="E"
@@ -46,5 +46,12 @@ side = "BOTH"
 modId = "simplyswords"
 mandatory = true
 versionRange = "[1.54.0-1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.simplyswordsiceandfire]]
+modId = "iceandfire"
+mandatory = true
+versionRange = "[2.1.13-1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
